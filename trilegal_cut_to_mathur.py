@@ -302,4 +302,4 @@ plt.title('Histogram of Samples for Kepler Magnitude', fontsize=20)
 plt.legend(fontsize=20) #Plot legend
 
 #Save and show figure 
-plt.savefig(fig_sample + 'final_sample_comparison.png')
+plt.savefig(fig_path + 'final_sample_comparison.png')
