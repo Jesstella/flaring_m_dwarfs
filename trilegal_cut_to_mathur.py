@@ -34,7 +34,7 @@ num_bins_mag=27 #Bins for mag
 
 #Histogram for teff
 #Range set is for temperature
-hist_teff, bin_edges_teff = np.histogram(mathur_teff, bins=num_bins, range=(3.35, 4.3)) 
+hist_teff, bin_edges_teff = np.histogram(mathur_teff, bins=num_bins, range=(3.35, 4.5)) 
 bin_centers_teff = ((bin_edges_teff[:-1] + bin_edges_teff[1:]) / 2) #Finding the centers of the bins
 bin_centers_teff_ticks = [] 
 #Formatting ticks for plots
@@ -43,7 +43,7 @@ for i in bin_centers_teff:
     bin_centers_teff_ticks.append(a) 
 
 #Histogram for logg
-hist_logg, bin_edges_logg = np.histogram(mathur_logg, bins=num_bins_logg, range=(0, 6.0))
+hist_logg, bin_edges_logg = np.histogram(mathur_logg, bins=num_bins_logg, range=(min(mathur_logg), max(mathur_logg)))
 bin_centers_logg = ((bin_edges_logg[:-1] + bin_edges_logg[1:]) / 2)
 bin_centers_logg_ticks = []
 for i in bin_centers_logg:
@@ -51,7 +51,7 @@ for i in bin_centers_logg:
     bin_centers_logg_ticks.append(a)
 
 #Histogram for mag
-hist_mag, bin_edges_mag = np.histogram(mathur_mag, bins=num_bins_mag, range=(min(mathur_mag), 20))
+hist_mag, bin_edges_mag = np.histogram(mathur_mag, bins=num_bins_mag, range=(min(mathur_mag)-2, 21))
 bin_centers_mag = ((bin_edges_mag[:-1] + bin_edges_mag[1:]) / 2)
 bin_centers_mag_ticks = []
 for i in bin_centers_mag:
@@ -128,21 +128,21 @@ num_bins=25
 num_bins_logg=26
 num_bins_mag=27
 
-hist_teff, bin_edges_teff = np.histogram(trilegal_teff, bins=num_bins, range=(3.35, 4.3))
+hist_teff, bin_edges_teff = np.histogram(trilegal_teff, bins=num_bins, range=(3.35, 4.5))
 bin_centers_teff = ((bin_edges_teff[:-1] + bin_edges_teff[1:]) / 2)
 bin_centers_teff_ticks = []
 for i in bin_centers_teff:
     a = str(round(i, 1))
     bin_centers_teff_ticks.append(a)
 
-hist_logg, bin_edges_logg = np.histogram(trilegal_logg, bins=num_bins_logg, range=(0, 6.0))
+hist_logg, bin_edges_logg = np.histogram(trilegal_logg, bins=num_bins_logg, range=(min(mathur_logg), max(mathur_logg)))
 bin_centers_logg = ((bin_edges_logg[:-1] + bin_edges_logg[1:]) / 2)
 bin_centers_logg_ticks = []
 for i in bin_centers_logg:
     a = str(round(i, 1))
     bin_centers_logg_ticks.append(a)
 
-hist_mag, bin_edges_mag = np.histogram(trilegal_mag, bins=num_bins_mag, range=(min(trilegal_mag), 20))
+hist_mag, bin_edges_mag = np.histogram(trilegal_mag, bins=num_bins_mag, range=(min(mathur_mag)-2, 21))
 bin_centers_mag = ((bin_edges_mag[:-1] + bin_edges_mag[1:]) / 2)
 bin_centers_mag_ticks = []
 for i in bin_centers_mag:
