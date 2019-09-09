@@ -1,0 +1,37 @@
+The following are the settings one would have to use in TRILEGAL 1.6 to reproduce our sample: 
+
+Equatorial coordinates are used, centered on the Kepler module in question, these coordinates are as follows: 
+
+module,alpha,delta
+1,-,-
+2,18.80,43.47
+3,18.96,41.23
+4,19.10,38.95
+5,-,-
+6,18.84,47.42
+7,19.01,45.23
+8,19.16,42.92
+9,19.30,40.59
+10,19.44,38.2
+11,19.06,49.16
+12,19.23,46.84
+13,19.38,44.46
+14,19.52,42.13
+15,19.65,39.68I
+16,19.30,50.8
+17,19.46,48.41
+18,19.60,45.99
+19,19.74,43.51
+20,19.86,41.07
+21,-,-
+22,19.71,49.88
+23,19.85,47.39
+24,19.97,44.86
+25,-,-
+ 
+The total field area is set to 5 deg^2, the area of a Kepler module.
+Photometric system used was Kepler + SDSS griz + DDO51 (in ABmags) + 2MASS (~vegamag)
+Limiting magnitude in the first filter (Kepler) is set to 22. 
+The chosen mass function in Kroupa (corrected for binaries).
+The binaries are turned off. 
+All other settings are default.
