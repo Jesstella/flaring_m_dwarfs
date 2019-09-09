@@ -1,7 +1,7 @@
 # flaring_m_dwarfs
-Project code and data for work determining if flaring M dwarfs are the real culprits in the observed G dwarf super flares.
+Project code for work determining if flaring M dwarfs are the real culprits in the observed G dwarf super flares.
 
-Each of the TRILEGAL module files contains the stars for one of the Kepler modules, they are numbered consistent with the labelling of the modules seen in the paper. The file trilegal_settings.txt contains the settings used in the TRILEGAL 1.6 input form, along with the coordinates used for the Kepler modules. The TRILEGAL files are large and must be viewed in raw. 
+Each of the TRILEGAL module files contains the stars for one of the Kepler modules. The file trilegal_settings.txt contains the settings used in the TRILEGAL 1.6 input form, along with the coordinates used for the Kepler modules.
 
 These will need to be combined into one master file for use in this code. 
 
