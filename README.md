@@ -15,17 +15,7 @@ Output:
 - Final sample file for stellar population. 
 - Comparison histograms between the TRILEGAL sample, the M17 sample and the outputted stellar population as a function of temperature, logg and Kepler magnitude. 
 
-2) To check that there are not to many repeats in the TRILEGAL sample and that it has roughly the same amount of stars as the Shibayama (2013) sample, use check_sample_for_repeats.py. 
-Output: 
-- The size of the sample and the size of the Shibayama sample. 
-- The amount of stars which show repeats.
-- The percentage of the sample which has a repeating star. 
-- Which star has the most repeats.
-- Plot showing a histogram of how many stars repeat as a function of how often they repeat. 
-- Two HR diagrams (logg vs. teff) showing the amount of repeats in a star as color. 
-- Two histograms of the samples overplotted along with vertical lines anywhere there may be an anomaly in the data (manually inputted). 
-
-3) To cut the sample down to just contain G/M binaries as would have been seen in the Shibayama sample, use full_code_sample_to_cut.py 
+2) To cut the sample down to just contain G/M binaries as would have been seen in the Shibayama sample, use full_code_sample_to_cut.py 
 Output: 
 - Histograms in temp, logg and Kepler magnitude at the M17 cut stage, before the sample is cut to Shibayama or binaries added. 
 - File containing the stars, cut to the Shibayama sample, so only G stars consistent with their parameters remain. 
