@@ -32,3 +32,8 @@ Output:
 - File with all of the above but only including systems whose binary stars are M dwarfs. 
 - Number of G/M binaries in the sample. 
 - File containing final statistics.
+
+Using the first set up described in the paper we get the following results: 
+- Number of G dwarfs in sample = 82470 
+- Number of these G dwarfs which have binaries = 36299
+- Number of these binary systems with G dwarf primaries, which also have an M star secondary = 18735
