@@ -1,0 +1,318 @@
+SIMPLE  =                    T / file does conform to FITS standard             BITPIX  =                    8 / number of bits per data pixel                  NAXIS   =                    0 / number of data axes                            EXTEND  =                    T / FITS dataset may contain extensions            COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H TELESCOP= 'UKIRT             ' / Telescope name                                 INSTRUME= 'WFCAM             ' / Instrument                                     DHSVER  = 'UKDHS 2002 Oct 31 ' / Data handling version                          HDTFILE = 'wfcam.hdt         ' / Name of global hdt file                        OBSERVER= '                  ' / Observers names                                USERID  = '                  ' / Userid logged in as                            OBSREF  = '                  ' / PATT or other reference                        PROJECT = 'U/UHS/UHSJ19'       / Time-allocation code                           SURVEY  = '                  ' / Survey name                                    SURVEY_I= '                  ' / Pointing ID within survey                      MSBID   = '1995408cab35d933649045d49960dd2f' / Id min.-schedulable block        RMTAGENT= '        '           / Name of remote agent                           AGENTID = '        '           / Unique identifier for remote agent             OBJECT  = 'uhsj19:42_260:1_1'  / Object name from telescope                     RECIPE  = 'JITTER  '           / Data reduction recipe to be used               OBSTYPE = 'OBJECT  '           / BIAS|DARK|SKYFLAT|DOMEFLAT|OBJECT|SKY|FOCUS    OBSNUM  =                 1474 / Observation number                             GRPNUM  =                 1474 / Group number applied to all members            GRPMEM  =                    T / Group membership                               TILENUM =                 1474 / Tile number applied to all members             STANDARD=                    F / Is the target a standard star observation?     NJITTER =                    4 / Number of positions in tel jitter pattern      JITTER_I=                    1 / Serial number in this tel jitter pattern       JITTER_X=                 0.00 / [arcsec] X (RA) offset in tel jitter pattern   JITTER_Y=                 0.00 / [arcsec] Y (Dec) offset in tel jitter pattern  NUSTEP  =                    1 / Number of positions in microstep pattern       USTEP_I =                    1 / Serial number in this microstep pattern        USTEP_X =                 0.00 / [arcsec] X (RA) offset in microstep pattern    USTEP_Y =                 0.00 / [arcsec] Y (Dec) offset in microstep pattern   NFOC    =                    0 / Number of positions in focus scan              NFOCSCAN=                    0 / Number of focus scans in focus test            UTDATE  = '20120804'           / UT date as integer in yyyymmdd format          DATE-OBS= '2012-08-04T11:13:11.159' / Date time (UTC) of start of observation   DATE-END= '2012-08-04T11:13:22.471' / Date time (UTC) of end of observation     MJD-OBS =          56143.46749 / DATE-OBS as Modified Julian Date               WCSAXES =                    2 / Number of axes in world co-ordinate system     RADESYS = 'FK5     '           / Mean IAU 1984 equatorial co-ordinates          EQUINOX =             2000.000 / [yr] Equinox of object position                TRACKSYS= 'J2000   '           / Telescope tracking coordinate system           RABASE  =           19.0358278 / [h] Right ascension of base position           DECBASE =           37.5457194 / [deg] Declination of base position             TELRA   =           19.0358278 / [h] Current telescope right ascension          TELDEC  =           37.5457194 / [deg] Current telescope declination            GSRA    =           19.0379194 / [h] Right ascension of guide star              GSDEC   =           37.5462444 / [deg] Declination of guide star                TRAOFF  =                0.000 / [arcsec] Telescope offset in RA                TDECOFF =                0.000 / [arcsec] Telescope offset in Dec               AMSTART =                1.293 / Airmass at start of observation                AMEND   =                1.294 / Airmass at end of observation                  NINT    =                    1 / Number of integrations in observation          READMODE= 'CDS     '           / Name of camera readmode                        EXP_TIME=            10.000000 / [s] Integration time per exposure              NEXP    =                    1 / Number of exposures in integration             READINT =             0.000000 / [s] Interval between reads                     NREADS  =                    2 / Number of reads per exposure                   AIRTEMP =                3.800 / [degC] Air temperature                         BARPRESS=              617.338 / [mbar] Ambient pressure                        DEWPOINT=              -17.200 / [degC] Dewpoint                                DOMETEMP=                4.300 / [degC] Dome temperature                        HUMIDITY=               16.800 / Relative Humidity                              MIRR_NE =                3.847 / [degC] Mirror temperature NE                   MIRR_NW =                4.120 / [degC] Mirror temperature NW                   MIRR_SE =                4.660 / [degC] Mirror temperature SE                   MIRR_SW =                3.654 / [degC] Mirror temperature SW                   MIRRBTNW=                6.217 / [degC] Mirror bottom temp. SW                  MIRRTPNW=                5.731 / [degC] Mirror top temp. SW                     SECONDAR=                2.148 / [degC] Temperature of secondary                TOPAIRNW=                4.213 / [degC] Top air NW                              TRUSSENE=                5.711 / [degC] Truss leg ENE                           TRUSSWSW=                3.260 / [degC] Truss leg WSW                           WIND_DIR=               92.745 / [deg] Wind direction, azimuth                  WIND_SPD=                0.000 / [km/h] Wind speed                              CSOTAU  =                0.203 / Tau at 225 GHz from CSO                        TAUDATE = '2012-08-04T11:01:00' / Time and date of Tau reading                  TAUSRC  = 'CSO225GHZ'          / Source of opacity data                         M2_X    =               -0.924 / [mm]   M2 X (E-W) raw position                 M2_Y    =                0.543 / [mm]   M2 Y (N-S) raw position                 M2_Z    =                0.244 / [mm]   M2 Z (focus) raw position               M2_U    =                5.315 / [mrad] M2 U (N-S tilt) raw position            M2_V    =                3.493 / [mrad] M2 V (E-W tilt) raw position            M2_W    =                0.000 / [mrad] M2 W (axial rotation) raw position      TCS_FOC =               -0.010 / telescope (TCS) focus                          FOC_POSN=               -0.310 / [mm] Internal focus position                   FOC_ZERO=                3.500 / [mm] Focus zero-point position                 FOC_OFFS=                0.000 / [mm] Focus offset                              FOC_FOFF=               -0.310 / [mm] Focus filter offset                       FILTER  = 'J       '           / Filter name                                    UTSTART =            11.219722 / [h] Start time of integration                  UTEND   =            11.222777 / [h] End time of integration                    FOC_I   =                    0 / Serial number in focus scan                    FOC_OFF =                0.000 / [mm] Offset from nominal inst. focus pos       MSBTID  = 'UKIRT_1344077601_433578' / MSB Transaction ID                        RQ_MINSB= '15.5    '           / [mag/arcsec**2] requested min J sky brightness RQ_MAXSB= '100.0   '           / [mag/arcsec**2] requested max J sky brightness RQ_MNSEE= '0.00    '           / [arcsec] requested min seeing                  RQ_MXSEE= '1.1     '           / [arcsec] requested max seeing                  RQ_MINCL= '0       '           / [percentage] requested min cloud coverage      RQ_MAXCL= '0       '           / [percentage] requested max cloud coverage      RQ_MNTAU= '0       '           / requested min tau constraint                   RQ_MXTAU= '        '           / requested max tau constraint                   RQ_MINMN= '0       '           / [percentage] req. min illumination moon        RQ_MAXMN= '100     '           / [percentage] req. max illumination moon        GPS-OBS = '2012-08-04T11:13:10' / Date time (UTC) of start of observation from GGPS-END = '2012-08-04T11:13:22' / Date time (UTC) of end   of observation from GHABASE  =           40.5831580 / [deg] Hour angle                               APER_X  =                0.000 / [arcsec] Aperture X axis coordinate            APER_Y  =                0.000 / [arcsec] Aperture Y axis coordinate            ISU2PORT= '                  ' / ISU2 port name                                 ISU2POFF= '                  ' / ISU2 port offset                               ISU2TOFF= '                  ' / ISU2 tilt offset                               GUIDING = 'ON      '           / Guider status: OFF|ON|PAUSED                   GUIDFFOC= '                  ' / Fast guider CCD fine focus                     AGFREQ  =               30.000 / Autoguider: Frequency                          FGMODE  = 'Fast Guider'        / Fast guider mode                               IRPOLARM= '                  ' / Position of IRPOL arm                          TRUSSTOP=                6.238 / [degC] Temperature at the top of the truss     TRUSSBOT=                5.958 / [degC] Temperature at the bottom of the truss  IZ5     =              959.000 / Astigmatism: IZ5                               HZ5SH   =             -538.000 / Astigmatism: HZ5SH                             HZ5CH   =                9.000 / Astigmatism: HZ5CH                             HZ5SD   =              898.000 / Astigmatism: HZ5SD                             HZ5CD   =              601.000 / Astigmatism: HZ5CD                             IZ6     =             1325.000 / Astigmatism: IZ6                               HZ6SH   =             1929.000 / Astigmatism: HZ6SH                             HZ6CH   =             -537.000 / Astigmatism: HZ6CH                             HZ6SD   =             -463.000 / Astigmatism: HZ6SD                             HZ6CD   =              189.000 / Astigmatism: HZ6CD                             Z7      =             -405.000 / Coma: Z7                                       Z8      =             1450.000 / Coma: Z8                                       WEBEAM  =             -405.000 / Topend: W-E beam                               NSBEAM  =               45.000 / Topend: N-S beam                               IZ9     =             -630.000 / Trefoil: IZ9                                   HZ9SH   =               60.000 / Trefoil: HZ9SH                                 HZ9CH   =              -30.000 / Trefoil: HZ9CH                                 HZ9SD   =              124.000 / Trefoil: HZ9SD                                 HZ9CD   =              206.000 / Trefoil: HZ9CD                                 IZ10    =              404.000 / Trefoil: IZ10                                  HZ10SH  =             -155.000 / Trefoil: HZ10SH                                HZ10CH  =             -100.000 / Trefoil: HZ10CH                                HZ10SD  =                7.000 / Trefoil: HZ10SD                                HZ10CD  =               36.000 / Trefoil: HZ10CD                                Z11     =              290.000 / Spherical: Z11                                 AAMP    =             2622.420 / Astigmatism: amplitude                         APHI    =               25.692 / Astigmatism: angle                             TAMP    =              455.822 / Trefoil: Amplitude                             TPHI    =               48.414 / Trefoil: angle                                 CASSFOC = '                  ' / Tel_inst focus                                 M2_XD   =               -0.923 / [mm]   M2 X (E-W) demand position              M2_YD   =                0.545 / [mm]   M2 Y (N-S) demand position              M2_ZD   =                0.244 / [mm]   M2 Z (focus) demand position            M2_UD   =                5.315 / [mrad] M2 U (N-S tilt) demand position         M2_VD   =                3.491 / [mrad] M2 V (E-W tilt) demand position         TEL_FOFF=               -3.750 / focus offset for inst. filter                  FOC_TOFF=                0.000 / [mm] Offset from nominal telescope focus       DETTEMPB=                 74.4 / [K] DET_TEMP alternate sensor                  DETTEMPS=                 75.0 / [K] Det temperature setpoint                   DET_HTP =                 71.5 / [percent] Det heater level                     CCD_TEMP=                160.2 / [K] AG CCD temperature                         CCDTEMPS=                160.0 / [K] AG CCD temperature setpoint                CCD_HTP =                 13.5 / [percent] AG CCD heater level                  FS_TEMP =                 71.9 / [K] CCC 1st stage temperature                  LNC_TEMP=                 98.2 / [K] LN can temperature                         SS_TEMP =                 16.3 / [K] CCC 2nd stage temperature                  M3_TEMP =                115.7 / [K] M3 temperature                             TR_TEMP =                124.2 / [K] Top ring temperature                       RS_TEMP =                138.8 / [K] Rad shield temperature                     CP_TEMP =                193.8 / [K] Cor plate temperature                      SC_TEMP =                278.1 / [K] SCSU cab temperature                       CC_PRES =              4.2E-06 / [mbar] Cryostat Pressure                       HISTORY 20120804 08:34:39                                                       HISTORY    $Id: cir_wfcam_convert.c,v 1.6 2005/10/19 09:13:45 jim Exp $         HISTORY 20120808 09:37:27                                                       HISTORY    $Id: cir_compress_fits.c,v 1.14 2010-10-01 09:26:57 jim Exp $        CIR_VERS= '$Revision: 1.188 $' / CIRDR Version                                  SOFTVERS= '$Revision: 1.188 $' / CIRDR Version                                  SOFTDATE= '$Date: 2012-07-30 11:10:06 $' / CIRDR release date                   SOFTAUTH= 'Jim Lewis <jrl@ast.cam.ac.uk>' / Contact for bug reports             SOFTINST= 'CASU: http://casu.ast.cam.ac.uk' / CASU URL                          PREVIEWV= '$Id: preview,v 1.75 2012-07-27 17:41:27 jim Exp $' / Version of previWSA_TIME= '120804121022115425' / WSA time stamp                                 WSA_MFID=              5717674 / WSA Multiframe ID                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'IMAGE   '           / IMAGE extension                                BITPIX  =                   32 / number of bits per data pixel                  NAXIS   =                    2 / number of data axes                            NAXIS1  =                   24 / length of data axis 1                          NAXIS2  =                   24 / length of data axis 2                          PCOUNT  =                    0 / required keyword; must = 0                     GCOUNT  =                    1 / required keyword; must = 1                     EXTNAME = 'WSAIMAGE'                                                            CAMNUM  =                    3 / Number of WFCAM camera (1, 2, 3 or 4)          HDTFILE2= 'wfcam2.hdt        ' / Name of camera-specific hdt file               CTYPE1  = 'RA---ZPN'           / Algorithm type for axis 1                      CTYPE2  = 'DEC--ZPN'           / Algorithm type for axis 2                      CRPIX1  = 2.662310100000000E+03 / [pixel] Reference pixel along axis 1 (RA)     CRPIX2  = -2.171699890000000E+03 / [pixel] Reference pixel along axis 2 (Rec)   CRVAL1  =   2.855388415971E+02 / [deg] Right ascension at the reference pixel   CRVAL2  =   3.754489129143E+01 / [deg] Declination at the reference pixel       CRUNIT1 = 'deg     '           / Unit of right ascension co-ordinates           CRUNIT2 = 'deg     '           / Unit of declination co-ordinates               CD1_1   =       -1.7258043E-07 / Transformation matrix element                  CD1_2   =        1.1155064E-04 / Transformation matrix element                  CD2_1   =       -1.1150541E-04 / Transformation matrix element                  CD2_2   =       -1.0143741E-07 / Transformation matrix element                  PV2_1   =                   1. / Pol.coeff. for pixel -> celestial coord        PV2_2   =         0.000000E+00 / Pol.coeff. for pixel -> celestial coord        PV2_3   =                 -46.                                                  DETECTOR= 'RSC Hawaii 2'       / Type of detector array used                    DETECTID= 'RSC:H2:76'          / Serial number of detector array                DROWS   =                 2048 / [pixel] Number of detector rows                DCOLUMNS=                 2048 / [pixel] Number of detector columns             RDOUT_X1=                    1 / Start column of array readout                  RDOUT_X2=                 2048 / End   column of array readout                  RDOUT_Y1=                    1 / Start row    of array readout                  RDOUT_Y2=                 2048 / End   row    of array readout                  PIXLSIZE=               0.4000 / [arcsec] Pixel size                            PCSYSID = '        '           / PC system identifier                           SDSUID  = '2221201b'           / Serial number of SDSU controller               CAPPLICN= 'do_mean_wfcam_cds'  / Name of camera readout application             CAMROLE = 'slave   '           / Camera role (master|slave|unsync)              CAMPOWER= 'On      '           / Camera power (On|Off)                          RUNID   = '/home/wfcam/ucam-wfcam/data//run00001505' / Name of raw data file    READOUT = 'CDS     '           / Camera readout (CDS|NDR|SAR|RRR)               GAIN    =                4.500 / [electrons/ADU] Detector gain                  DET_TEMP=                 74.4 / [K] Detector array temperature                 CNFINDEX=            271299290 / Configuration index                            CIR_VERS= '$Revision: 1.188 $' / CIRDR Version                                  READNOIS=                  25. / Readnoise estimate                             DARKCOR = 'Done with: dark_20120804_10_CDS_1.fit[3] and scale 1'                FLATCOR = 'Done with: pJ_flat_aug2012.fit[3]'                                   CIR_CPM = 'w20120804_01474_st_conf.fit[3]' / Confidence Map                     DECURTN = 'Done    '           / De-curtaining done                             CURTNRNG=             33.69971 / Range of decurtain correction                  XTALK   = 'Done    '                                                            SKYSUB  = 'Done with sky_20120804_1458_J.fit[3] and scale factor 1'             SKYLEVEL=              1277.06 / Sky level estimate from IMCORE                 SKYNOISE=                   8. / Sky noise estimate from IMCORE                 CIR_XOFF=                   0. / Dither offset                                  CIR_YOFF=                   0. / Dither offset                                  PROV0000= 'w20120804_01474_st.fit[3]: formed from imdither of:' / Output file naPROV0001= 'w20120804_01474.fit[3]' / Card # 1                                   PROV0002= 'w20120804_01475.fit[3]' / Card # 2                                   PROV0003= 'w20120804_01476.fit[3]' / Card # 3                                   PROV0004= 'w20120804_01477.fit[3]' / Card # 4                                   SEEING  =              1.72903 / Average FWHM (pixels)                          NUMBRMS =                  388 / Number of stars used in fit                    STDCRMS =           0.08725359 / RMS of standard coordinates                    WCSPASS =                    2                                                  NUMSTDS =                  525 / Number of standards available                  RAZP02  =              5.05766 / [arcsec] Ref RA shift pass 0 to 2 (new - old)  DECZP02 =            -2.983085 / [arcsec] Ref Dec shift pass 0 to 2 (new - old) ELLIPTIC=           0.04022563 / Ellipticity estimate from IMCORE               MAGZPT  =               23.004 / Photometric ZP (mags) for default extinction   MAGZRR  =                0.015 / Photometric ZP error (mags)                    EXTINCT =                 0.05 / Extinction coefficient (mags)                  HISTORY 20120804 08:28:29                                                       HISTORY    $Id: cir_compress_fits.c,v 1.12 2008/04/10 09:46:35 jim Exp $        HISTORY 20120808 09:37:27                                                       HISTORY    $Id: cir_compress_fits.c,v 1.14 2010-10-01 09:26:57 jim Exp $        HISTORY 20120809 22:23:34                                                       HISTORY    $Id: cir_create_file.c,v 1.18 2012-03-09 17:01:46 jim Exp $          HISTORY 20120809 22:23:35                                                       HISTORY    $Id: cir_stage1.c,v 1.12 2010-10-01 09:26:57 jim Exp $               HISTORY 20120809 22:23:53                                                       HISTORY    $Id: cir_qblkmed.c,v 1.12 2008-04-30 04:46:23 jim Exp $              HISTORY 20120809 22:24:36                                                       HISTORY    $Id: cir_xtalk.c,v 1.10 2008-09-24 09:23:13 jim Exp $                HISTORY 20120811 02:57:40                                                       HISTORY    $Id: cir_arith.c,v 1.10 2011-10-31 12:27:16 jim Exp $                HISTORY 20120812 00:50:09                                                       HISTORY    $Id: cir_imcore.c,v 1.12 2006-07-31 13:21:08 jim Exp $               HISTORY 20120812 00:51:28                                                       HISTORY    $Id: cir_create_file.c,v 1.18 2012-03-09 17:01:46 jim Exp $          HISTORY 20120812 00:52:19                                                       HISTORY    $Id: cir_imcore.c,v 1.12 2006-07-31 13:21:08 jim Exp $               HISTORY 20120812 00:52:35                                                       HISTORY    $Id: cir_platesol.c,v 1.15 2011-05-31 09:20:51 jim Exp $             PERCORR =                   0. / Percentage sky correction                      PROJP1  =                   1. / Old style WCS                                  PROJP3  =                 -46. / Old style WCS                                  PROJP5  =                   0. / Old style WCS                                  PV2_5   =                   0. / &                                              NUMZPT  =                  933 / Number of standards used                       NIGHTZPT=               22.993 / Average photometric ZP (mags) for night        NIGHTZRR=                0.011 / Photometric ZP sigma for night (mags)          NIGHTNUM=                  295 / Number of ZP used in band for night            BSCALE  =           0.50000000 /                                                END                                                                                                                                                                                                                                               	˚  
+  
+  
+   	Ù  	  
+  
+  
+   	Ë  
+  	˛  	Û  	ı  	Û  	˛  	Ú  
+&  	˜  
+  
+  
+	  	Ò  	˘  
+  	˘  
+  
+  	¯  
+  	ˆ  	¯  
+  	˚  
+?  
+  	¸  
+  	„  	ˇ  
+  
+  	˛  	Ë  	˘  	˚  	Ò  	Â  	Í  	ˆ  	˛  	ˇ  	Î  
+  
+  
+  
+  
+  
+  	˜  	Â  	‚  
+
+  
+  	˘  
+  	‹  
+  
+  	›  
+  	‡  	ˇ  
+  
+   
+  	Î  
+   	‚  	Í  	Ù  
+  	˙  	˛  
+  
+  	Ú  
+  	  
+
+  	˝  
+  	€  
+  
+  
+  
+  
+  	  	˛  
+  	˚  
+  
+  	¸  
+  	˛  
+%  
+%  	ˆ  
+  
+  
+  	‡  
+  	È  	ˇ  	È  	  	Ù  
+  
+   	˝  	Ò  
+  
+*  
+  	Í  
+  
+  
+1  
+  
+*  	˘  	Û  	˝  	¸  
+	  	Ò  	ˆ  	ı  	˝  
+   	‹  
+   	–  	˛  
+  
+   
+  
+  	Ù  
+  
+  
+2  
+  
+  
+  
+  	¯  
+  
+  	¸  
+  	Ô  	Ó  
+  
+  
+  	¯  	Ù  
+  
+  	¯  
+  
+  
+   
+L  
+S  
+S  
+@  
+>  
+'  
+/  
+   
+  	˛  	Û  
+  	˜  	Ï  
+  
+  
+  	Ô  
+  	Ô  
+  
+  
+/  
+6  
+ß    
+Ó  
+·  
+Å  
+1  
+$  
+   	˜  
+  
+  	¸  	Á  	˙  	Ù  	˝  
+   	Ò  	˝  	Î  
+-  
+  
+Q  
+…  ö  Ø    1  Y  
+•  
+j  
+$  
+  	Ú  	Ë  
+   	Û  	Ì  
+  	˛  
+  
+  	˘  
+  
+  
+#  
+{  m  C     œ  ¥  ©  A  
+o  
+=  
+  	˛  
+  	Ù  
+	  	ˆ  	Ú  
+  
+  
+  
+  
+'  
+  
+#  
+x  ”  p  0ä  N  *  ¸  #  
+{  
++  
+  
+  	˘  
+  	‡  
+&  	˙  
+
+  	˝  	˛  
+  	¯  
+7  
+T  
+ç  w    -w  Va  ,N  z  Ω  
+ì  
+E  
+  
++  	ˇ  
+  
+  
+  	˛  
+  
+  
+  	Ô  	˜  
+  
+!  
+Ä  	    ›  "  ˙  £  =  
+k  
+;  
+  
+2  
+  	Á  
+  	Ï  	˜  	Ú  	ı  	˛  	˚  
+  
+  
+  
+7  
+©  1  ≥  ü  z  •  
+€  
+:  
+L  
+  	¯  	„  
+
+  	È  
+  	˘  	  	Ë  
+  
+  
+  
+  
+$  
+(  
+U  
+î  
+Â    
+˚  
+Ü  
+h  
+2  
+  
+	  
+  
+  	Ô  
+  	Î  	Ì  	ˆ  
+  	Ô  
+  
+  
+  
+0  
+(  
+'  
+  
+T  
+Q  
+U  
+F  
+'  
+M  	˚  	Ú  	˛  	˙  	˙  
+  	Ï  	˜  	ﬂ  
+  	Ú  	Ú  	˙  
+  
+  	ˆ  
+	  
+!  
+  
+B  
+E  
+,  
+&  
+  
+%  	ˆ  
+  
+   	Ò  
+  	Ò  	˙  	˝  
+  	‡  	ı  	˙  	Â  	Í  
+  	‰  	˙  
+  
+,  
+  
+  	Ù  	Î  	˚  
+  
+  
+  
+  	„  	‡  	˚  	ˇ  
+  	Ó  
+
+  
+  	Í  	˘  	˛  	¸  
+   
+   
+  	Î  
+   
+  	ˆ  
+  
+	  	¸  
+   	‚  
+  
+  	Ï  	˙  	˝  	¯  
+  
+  
+  
+  	Ú  
+  	Ï  
+  
+   	˝  
+  
+  
+  	Ú  
+  	Á  	Ï  	ˆ  
+  	Á  	Ï  	Ú  
+  	˜  
+  	Â  
+  
+  	¯  	ˆ  
+  
+  
+  	¯  	Â  
+  
+	  	¯  	˝  	Ï  	ﬁ  
+  
+  	·  	Û  
+  	˙  
+
+  
+  
+  
+  	Î  	¸  	˚  	Í  
+  
+  	  
+  
+  	˚  	ˇ  	˚  	Î  
+  	ﬁ  
+  
+  	‹  
+  
+   	Ú  
+  	Î  	Á  	  
+  	ˇ  
+  
+0  
+	  
+  
+(  	Ê  	˛  	‹  
+  
+  
+  	ﬁ  	Ú  
+
+  	Ó                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
