@@ -8,7 +8,7 @@ Why it is useful: I used this information to decide which coordinates to use as 
 P_kepler_one_module.png
 What is shows: This plot shows a zoom in for each of the points given on just one module of the CCD (in this case Module 2). The two black dots represent the two most central points of the module as given for the spring coordinates. 
 
-Why it is useful: In order to choose the central coordinates for each of the TRILEGAL sample searches, I needed to know what indices they corresponded to in the supplemental data list, which was not intuative from the list itself. I used this plot to determine the order of the coordinates for each module and then saved the two central points. Because the modules are plotted as four sub-modules, I used the two central most pixels and found the average of their positions to determine the central point at which I should search. 
+Why it is useful: In order to choose the central coordinates for each of the TRILEGAL sample searches, I needed to know what indices they corresponded to in the supplemental data list, which was not intuative from the list itself. I used this plot to determine the order of the coordinates for each module and then saved the two central points. Because the modules are plotted as four sub-modules, I used the two central most pixels and found the average of their positions to determine the central point at which I should search.  
 
 P_kepler_fov_all_modules.png
 What is shows: This plot shows each of the Kepler modules, in a different colour, with the central two points highlighted in a darker shade. 
