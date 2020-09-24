@@ -15,6 +15,11 @@ What is shows: This plot shows each of the Kepler modules, in a different colour
 
 Why it is useful: This plot served as a check for me to make sure I had choosen the correct central points for each module. 
 
+P_age.png, P_metal.png, P_initial_mass.png, P_actual_mass.png, P_luminosity.png, P_temp.png, P_grav.png, P_dist_mod.png, P_av.png, P_mbol.png, P_kep_mag.png
+What is shows: Each of these plots shows the histogram of an individual TRILEGAL parameter for each of the 21 modules, overplotted. 
+
+Why it is useful: This allows me to make sure that none of the modules are underpopulated and that the shape of the distributions look as we would expect them too. 
+
 P_trilegal_sample_on_kepler_FOV.png
 What it shows: This plot shows all of the total number of stars in each of the combined modules – a combined module being the entire sample for that module with all four sample files combined. Colour in this plot dictates the realtive density of the number of stars and shows an increase in density toward the galactic plane. Each of the squares contains the number of the module, the central coordinates used for the sample of that module and the number of stars in the module model. NB: Each square is a matplotlib marker and does not represent the size or shape of the real Kepler modules. 
 
