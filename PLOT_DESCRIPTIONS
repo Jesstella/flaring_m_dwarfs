@@ -24,3 +24,9 @@ P_trilegal_sample_on_kepler_FOV.png
 What it shows: This plot shows all of the total number of stars in each of the combined modules – a combined module being the entire sample for that module with all four sample files combined. Colour in this plot dictates the realtive density of the number of stars and shows an increase in density toward the galactic plane. Each of the squares contains the number of the module, the central coordinates used for the sample of that module and the number of stars in the module model. NB: Each square is a matplotlib marker and does not represent the size or shape of the real Kepler modules. 
 
 Why it is useful: Having an idea of the relative amount of stars in each module helps me to see if any of the modules have accidentally be underpopulated. It also allows me to affirm my coordinates by seeing the relative density in comparison to the galactic plane. 
+
+P_mathur_binned_stars.png
+What it shows: Each of the squares n this plot shows the number density of each of the parameters compared to one another. Colour indicates number density. 
+
+Why it is useful: It gives us an idea of where the stars fall in parameter space so that we can attempt to match this with the TRILEGAL sample. 
+
