@@ -25,8 +25,27 @@ What it shows: This plot shows all of the total number of stars in each of the c
 
 Why it is useful: Having an idea of the relative amount of stars in each module helps me to see if any of the modules have accidentally be underpopulated. It also allows me to affirm my coordinates by seeing the relative density in comparison to the galactic plane. 
 
-P_mathur_binned_stars.png
-What it shows: Each of the squares n this plot shows the number density of each of the parameters compared to one another. Colour indicates number density. 
+P_mathur_bins_logg_mag.png, P_mathur_bins_teff_logg.png, P_mathur_bins_teff_mag.png
+What is shows: Theses plots show the number density of stars that fall into bins created when Mathur undergoes a three way cut between teff, logg and mag. Each plot shows a different combination of parameters. 
 
-Why it is useful: It gives us an idea of where the stars fall in parameter space so that we can attempt to match this with the TRILEGAL sample. 
+Why it is useful: It allows us to see the shape of the parameter space and the relative density of different bins for various parameters. It can then be compared with the TRILEGAL plots described below. 
+
+P_trilegal_bins_logg_mag.png, P_trilegal_bins_teff_logg.png, P_trilegal_bins_teff_mag.png
+What it shows: These plots are the same as for the Mathur sample but in logspace, as the parameters are spread out in the bins much more (nature of a population sample vs. a selected sample like Mathur). 
+
+Why it is useful: This helps us to see where the populations overlap when the new bins, for the Trilegal/Mathur cut are populated. 
+
+P_trilegal_mathur_comparison.png (NB: WILL NEED TO SCROLL TO THE RIGHT TO SEE ALL OF THE PLOT). 
+What is shows: Each of the subplots in this plot show a histogram of the parameters that we have cut by (teff, logg and mag). The red histograms show the original TRILEGAL population for this parameter, the green histogram shows the Mathur sample and the blue histogram shows our model now that it has been cut to the Matur sample. 
+
+Why it is useful: It allows us to see that our model lines up well with the Mathur sample and that the bins have been populated correctly. 
+
+P_compare_to_jvs_2019.png
+What it shows: This is a testing plot to see how close our sample is to a similar sample cut made in jvs 2019 (https://arxiv.org/pdf/1803.04971.pdf). The sample in this paper was cut in a very similar way so should create a similar plot. 
+
+Why it is useful: It can help us see if any particular part of our parameter space has not been populated correctly, or missed, or over populated for any reason. 
+
+
+
+
 
