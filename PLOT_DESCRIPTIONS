@@ -65,6 +65,20 @@ What it shows: The left hand plot shows a histogram of the temperatures in the s
 
 Why it is useful: This plots lets us see how our cut from the Trilegal/Mathur sample to the Shibayama G stars is consistent with the Shibayama samples. The Shibayama histogram for log(g) extends further to the right on the x-axis than our sample because the Mathur sample is cut at this log(g) when also cutting by magnitude. 
 
+P_shib_stars_on_fov.png
+What it shows: The plot shows the distribution of Shibayama stars over the Kepler FOV. 
+
+Why it is useful: This is a good reminder that the Shibayama stars we are considering are more of less a uniform distribution over the Kepler FOV. 
+
+P_histograms_g_stars_to_shibayama.png
+What it shows: This plot shows the teff and logg histogram comparisons between the G dwarfs from Mathur and the G dwarfs in our sample once it has been cut to Shibayama.
+
+Why it is useful: Because we cut out TRILEGAL sample to the Mathur sample before cutting it to the Shibayama sample, the histograms for both these parameters should look similer, and provides a check for the G dwarf cut. 
+
+P_g_stars_comparison_binaries.png
+What it shows: This plot shows three overplotted histograms for the tef, logg and kepler magnitude. The dark green histogram is all of the G stars and the light green histogram is the plot of the G stars that have been chosen to be binaries. 
+
+Why it is useful: Because the binaries are chosen from a binary fraction at random, these histograms should be similar and serve as a chedck for the cut. 
 
 
 
