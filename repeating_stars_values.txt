@@ -1,0 +1,8 @@
+There are 73663 in the final TRILEGAL g population.
+There are 80000 stars in the Shibayama (2013) population.
+1126 stars appear more than once in the g star population.
+1.53% of stars appear more than once in this sample.
+The number of stars with the same number of repeats is: Counter({2: 158, 4: 27, 3: 22, 5: 3, 35: 2, 515: 1, 36: 1})
+The maximum number of repeats is: 515
+There are 214 unique indices that repeat within this sample
+Of these indices, 7 repeat more than 5 times.
