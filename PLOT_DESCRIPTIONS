@@ -80,6 +80,11 @@ What it shows: This plot shows three overplotted histograms for the tef, logg an
 
 Why it is useful: Because the binaries are chosen from a binary fraction at random, these histograms should be similar and serve as a chedck for the cut. 
 
+P_period_mass_ratio.png
+What it shows: This plot shows two overplotted histograms of the period and mass ratio value. The dark brown histogram shows the generated distribution we drew from and the light brown histogram shows the chosen values from the distribution. 
+
+Why it is useful: Because the period and mass ratio distributins are pulled from at random they should look similar. This is a good test of the random distribition. 
+
 
 
 
