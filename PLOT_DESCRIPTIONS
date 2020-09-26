@@ -60,6 +60,13 @@ What it shows: Shows the same as the previous plot but with the green and red li
 
 Why it is useful: This plot demonstrates how the repeating stars can vary with bin size. 
 
+P_shib_comparison_tests.png 
+What it shows: The left hand plot shows a histogram of the temperatures in the shibayama sample overplotted with the teff histogram from our work. The right hand side shows the same two histograms in log(g)
+
+Why it is useful: This plots lets us see how our cut from the Trilegal/Mathur sample to the Shibayama G stars is consistent with the Shibayama samples. The Shibayama histogram for log(g) extends further to the right on the x-axis than our sample because the Mathur sample is cut at this log(g) when also cutting by magnitude. 
+
+
+
 
 
 
