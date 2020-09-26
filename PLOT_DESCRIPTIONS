@@ -45,6 +45,25 @@ What it shows: This is a testing plot to see how close our sample is to a simila
 
 Why it is useful: It can help us see if any particular part of our parameter space has not been populated correctly, or missed, or over populated for any reason. 
 
+P_repeats_hist.png
+What it shows: Three panels with varying x-axes that show the number of repeating stars in the sample. The x-axis shows the number of repeats of a particular star and the y-axis are the number of stars that have this many of repeats. 
+
+Why it is useful: This plot shows that the majority of stars that do repeat, only repeat once or twice, an insignificant amount. There are one or two stars that repeat multiple times but when plotting on a HR diagram (next plot) it is clear that these stars fall in parts of the HR diagram that will be removed later in the process (i.e. sub-giants). 
+
+P_repeats_hr.png
+What it shows: This plot shows all of the stars that have been cut from TRILEGAL to the Mathur sample. The dotted green and red lines show the parameters of the cut (respectively). The colored stars show the stars in the sample that repeat, the colors represent the number of repeats for the star. 
+
+Why it is useful: This plot shows that the repeats are not clustering and are in place that would be expected. i.e. sub-dwarfs to the bottom of the main sequence. 
+
+P_repeats_hr_withbins.png
+What it shows: Shows the same as the previous plot but with the green and red lines representing the in edges for the logg and teff respectively. 
+
+Why it is useful: This plot demonstrates how the repeating stars can vary with bin size. 
+
+
+
+
+
 
 
 
