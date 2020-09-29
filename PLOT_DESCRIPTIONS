@@ -85,6 +85,21 @@ What it shows: This plot shows two overplotted histograms of the period and mass
 
 Why it is useful: Because the period and mass ratio distributins are pulled from at random they should look similar. This is a good test of the random distribition. 
 
+P_secondary_masses.png 
+What it shows: The relation between the TRILEGAL determined primary mass and the secondary mass that has been calculated based on the primary mass and a randomly chosen mass ratio. 
+
+Why it is useful: It allows us to see that the mass calculation worked the way we expected. 
+
+P_trilegal_temp_mapping.png
+What it shows: Each of these overplotted histograms shows a different parameter. From left: temperature, mass and composition. The brown plot shows the original TRILEGAL model that was mapped to and the purple plot shows the resulting parameters chosen from that mapping for the secondary star. 
+
+Why it is useful: This allows us to make sure that the secondary parameters fall where we expect them too in these parameter spaces, and that they all fit within the boundaries of the TRILEGAL parameters (to check the mapping). 
+
+P_trilegal_temp_mapping_2.png
+What it shows: A scatter plot of the temperature and mass of the secondary stars. The colorbar refers to the difference between the original secondary mass and the mass it was allocated in the mapping. The larger the difference, the less close the star is to the star we inputted. 
+
+Why it is useful: It allows us to see if any of the points are incorrect/anomalous. The colorbar allows us to assign any descrepancies to either a large mass difference or the mapping onto a star that may not be accurate (not a dwarf for example). 
+
 
 
 
