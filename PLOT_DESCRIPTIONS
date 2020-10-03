@@ -100,6 +100,50 @@ What it shows: A scatter plot of the temperature and mass of the secondary stars
 
 Why it is useful: It allows us to see if any of the points are incorrect/anomalous. The colorbar allows us to assign any descrepancies to either a large mass difference or the mapping onto a star that may not be accurate (not a dwarf for example). 
 
+P_m_dwarf_parameters.png
+What it shows: At this point the sample has been cut by temperature to only include M dwarf secondaries. Each of these histograms shows a different parameter for these secondary stars: the effective temperature, secondary mass and Kepler magnitude. 
+
+Why it is useful: This plot allows us to see that the parameters for the secondary stars fall where we would expect them (i.e. we don't have any M dwarfs that are 1M_sun). Also, it allows us to check where the temperature cut off occured to make sure it's correct. 
+
+p_gm_dwarf_parameters.png 
+What it shows: The sample has now been cut to remove all giants as primary stars leaving only G dwarf primaries and M dwarf secondaries. As above, each histogram represents a different parameter, and the purple histograms represent the M dwarf while the orange histograms represent the G dwarfs. 
+
+Why it is useful: As above, this plot helps us see that all the parameters fall as we would expect. The M dwarfs and the G dwarfs were selected (in part for the G dwarfs) by temperature so we would expect the histograms to be separated by these limits and not overlapping. The same is true of the masses. The Kepler masses may overlap but we expect the G dwarfs to have a lower value of magnitude (brighter) than the M dwarfs. 
+
+P_mags_and_dist.png 
+What is shows: This plot is created after the calculation of the absolute magnitudes for both stars and the distance to the system (assuming physical association, or negligible distance). It shows the absolute magnitudes for primary and secondary star and the distance as a colormap. - NB: Colormap is in logscale.
+
+Why it is useful: We would expect brighter primaries with fainter secondaries to be closer to us, otherwise they would not be apparent. This is what we see generally here. However, this is not a function of us selecting for those stars to be 'visible' but due to our choice of masses. I.e. the bigger the mass ratio and initial mass of the primary, the smaller the secondary mass will be when mapped to the TRILEGAL catalog. 
+
+P_mags_and_flux.png
+What it shows: The corrected apparent magnitude (corrected for extinction) of the primary and secondary star. 
+
+Why is it useful: Similar to above. 
+
+P_recreate_davenport.png
+What it shows: This plot shows the reverse cumulative distribution of Davenport for a bunc of stars of different temperatures. The dashed and dotted lines represent values taken directly from the Daverport work at both edges of the age distribtion. 
+
+Why is is useful: This plot shows that the Davenport distribution for all of our stars in this age range fit within the boundaries of the stars present in Davenport. 
+
+P_davenport_histogram.png 
+What it shows: The orange lines shows a reverse cumulative distrbution for a random star and the histogram shows the energies of flares on that star as they have been populated from the distribution. 
+
+Why it is useful: This plot can be used to demonstrate whether the distribution is being pulled from correctly. 
+
+P_hawley_durations.png
+What it shows: This pink plots on this point show the data from the Hawley paper that relate the duration of flares and flare energies. The black line corresponds to our fit to that data. 
+
+Why it is useful: The plot shows the fit we use to determine durations for our flares. It also shows whether or not the fit is correct and consistent with the Hawley data.
+
+P_hawley_amplitudes.png
+What it shows/Why is it useful: Same as above but with flare amplitudes. 
+
+flare_plot_[star number].png
+What it shows: NB - THIS PLOT IS AN EXAMPLE FOR ONE OF THE SYSTEMS. TL: This is the reverse cumulative distribution determined for this specific star. TR: A histogram of the flares pulled for this specific star, based on the distribution of a kepler quarter. BL: This is the histogram of the durations of each of flares as mapped from the flare energies from hawley. BR: This is a histogram of the flux ratio of flare to host star. 
+
+Why it is useful: each of these plots provides a unique breakdown of the recovery of flares for each star. They can be looked at individually or as an ensample to determine whether the distributions and relations are being pulled correctly. 
+
+
 
 
 
