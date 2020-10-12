@@ -5,16 +5,16 @@ The longest flare is equivalent too 302.67 hours.
 In the superflare sample the shortest flare is: 401.35 minutes.
 In the superflare sample the longest flare is: 18159.93 minutes.
 18159.93 minutes corresponds to 302.67 hours.
-Average superflare per Star in our Sample: 0.6784327567949171
+Average superflare per Star in our Sample: 0.3451743831040552
 Average superflare per Star in Shibayama: 5.630824372759856
 Shibayama Dwarfs
 The fraction of flares per star is: 5.630824372759856
 The maximum limit is: 5.996644546621817 and the minimum limit is: 5.265004198897896
 The Possion error for the number of flares per star is: 0.3658201738619609
 This Work
-The fraction of flares per star is: 0.6784327567949171
-The maximum limit is: 0.6873987228097255 and the minimum limit is: 0.6694667907801087
-The Possion error for the number of flares per star is: 0.008965966014808377
+The fraction of flares per star is: 0.3451743831040552
+The maximum limit is: 0.349258199022214 and the minimum limit is: 0.34109056718589637
+The Possion error for the number of flares per star is: 0.004083815918158845
 Shibayama Sun Like
 The fraction of flares per star is: 2.3157894736842106
 The maximum limit is: 2.9515099667226132 and the minimum limit is: 1.680068980645808
